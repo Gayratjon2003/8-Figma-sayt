@@ -1,0 +1,16 @@
+@mixin btn {
+    padding: 18px 90px;
+    border: transparent;
+    background-color: #fff;
+    color: black;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 22px;
+    white-space: nowrap;
+    &:hover{
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
